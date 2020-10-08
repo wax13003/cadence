@@ -208,7 +208,7 @@ func (wh *WorkflowHandler) RegisterHandler() {
 // Start starts the handler
 func (wh *WorkflowHandler) Start() {
 	//TODO: get warmup duration from configs
-	const warmUpDuration = 30 * time.Second
+	const warmUpDuration = 300 * time.Second
 
 	warmupTimer := time.NewTimer(warmUpDuration)
 	go func() {
