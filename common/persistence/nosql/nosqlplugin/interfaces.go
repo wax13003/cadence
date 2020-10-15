@@ -148,6 +148,7 @@ type (
 		IsGlobalDomain              bool
 	}
 
+	// NoSQLInternalDomainConfig defines the domain config for NoSQL plugin
 	NoSQLInternalDomainConfig struct {
 		// NOTE: this retention is in days, not in seconds
 		Retention                int32
